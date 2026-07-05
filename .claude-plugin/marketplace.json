@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "elgazzar-plugins",
+  "description": "Mohamed Elgazzar's Claude Code plugins.",
+  "owner": {
+    "name": "Mohamed Elgazzar",
+    "email": "mhmd.elgazzar.sqe@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "agentex",
+      "displayName": "AgenTeX",
+      "source": {
+        "source": "github",
+        "repo": "MhmdElGazzar/agentex"
+      },
+      "description": "Agentic test execution — skip the manual-execution grind. AgenTeX plans and runs your tests for you, human-in-the-loop or fully autonomous, capturing structured evidence and a consolidated defect report. Drives a real browser via playwright-cli today; API, DB, and Azure execution targets coming soon.",
+      "version": "0.1.0",
+      "category": "testing",
+      "keywords": ["qa", "testing", "test-execution", "manual-testing", "agentic", "playwright", "browser", "automation", "defects"],
+      "license": "MIT"
+    }
+  ]
+}
