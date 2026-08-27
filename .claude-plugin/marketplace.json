@@ -19,6 +19,19 @@
       "category": "testing",
       "keywords": ["qa", "testing", "test-execution", "manual-testing", "agentic", "playwright", "browser", "automation", "defects", "azure-devops", "estimation", "sprint-planning", "work-items", "test-design", "test-cases", "api-testing", "database", "sql-server", "knowledge-base"],
       "license": "MIT"
+    },
+    {
+      "name": "agenpm",
+      "displayName": "AgenPM",
+      "source": {
+        "source": "github",
+        "repo": "MhmdElGazzar/agenpm"
+      },
+      "description": "A reusable idea-to-release delivery framework for any project — web, data analytics, task management, or anything else. One /agenpm:pm run takes a raw idea through backlog, design, implementation, and a QA gate with exactly two owner interruptions: one kickoff round and one pre-ship confirmation. /agenpm:init scaffolds a private .planning/ repo inside your project (invisible to the project's git) and fills a per-project profile from editable domain presets.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": ["project-management", "delivery", "planning", "backlog", "design", "agents", "workflow", "product-owner", "qa-gate", "vision", "architecture"],
+      "license": "MIT"
     }
   ]
 }
