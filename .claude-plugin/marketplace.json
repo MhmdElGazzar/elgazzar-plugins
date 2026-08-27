@@ -28,7 +28,7 @@
         "repo": "MhmdElGazzar/agenpm"
       },
       "description": "A reusable idea-to-release delivery framework for any project — web, data analytics, task management, or anything else. One /agenpm:pm run takes a raw idea through backlog, design, implementation, and a QA gate with exactly two owner interruptions: one kickoff round and one pre-ship confirmation. /agenpm:init scaffolds a private .planning/ repo inside your project (invisible to the project's git) and fills a per-project profile from editable domain presets.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "category": "productivity",
       "keywords": ["project-management", "delivery", "planning", "backlog", "design", "agents", "workflow", "product-owner", "qa-gate", "vision", "architecture"],
       "license": "MIT"
