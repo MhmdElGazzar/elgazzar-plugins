@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Verify transfer succeeds with the maximum allowed amount",
+    "priority": "High",
+    "tags": ["Smoke", "Regression"],
+    "preconditions": "User is logged in, and the balance is 20,000 EGP",
+    "testData": "amount = 10,000",
+    "attachment": "",
+    "steps": [
+      { "action": "Open the Transfer screen", "expected": "The Transfer screen opens" },
+      { "action": "Enter 10,000 in the Amount field", "expected": "The amount is accepted" },
+      { "action": "Click Transfer", "expected": "EN: \"Transfer completed successfully\"\nAR: \"تم التحويل بنجاح\"\nThe balance becomes 10,000 EGP" }
+    ]
+  },
+  {
+    "title": "Verify transfer is rejected above the maximum amount",
+    "priority": "High",
+    "tags": ["Regression"],
+    "preconditions": "User is logged in, and the balance is 20,000 EGP",
+    "testData": "amount = 10,001",
+    "attachment": "",
+    "steps": [
+      { "action": "Open the Transfer screen", "expected": "The Transfer screen opens" },
+      { "action": "Enter 10,001 in the Amount field", "expected": "The amount is entered" },
+      { "action": "Click Transfer", "expected": "EN: \"Amount exceeds the maximum limit\"\nAR: \"المبلغ أكبر من الحد الأقصى المسموح\"\nNo transfer is made, and the balance stays 20,000 EGP" }
+    ]
+  }
+]

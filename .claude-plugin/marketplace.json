@@ -64,6 +64,24 @@
         "architecture"
       ],
       "license": "MIT"
+    },
+    {
+      "name": "qa-skills",
+      "displayName": "QA Skills",
+      "source": "./plugins/qa-skills",
+      "description": "Three QA skills for the story-to-bug workflow on Azure DevOps: analyze a User Story for gaps, impact and conflicts; design test cases and create them in Azure Test Plans; and write reproducible bug reports with a test execution summary.",
+      "version": "0.1.0",
+      "category": "testing",
+      "keywords": [
+        "qa",
+        "testing",
+        "requirement-analysis",
+        "test-design",
+        "test-cases",
+        "bug-report",
+        "azure-devops",
+        "azure-test-plans"
+      ]
     }
   ]
 }

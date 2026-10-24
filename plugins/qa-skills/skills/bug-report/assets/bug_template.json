@@ -1,0 +1,26 @@
+[
+  {
+    "title": "[Staging][Customer] Transfer above 10,000 EGP succeeds without an error message",
+    "severity": "High",
+    "priority": "High",
+    "layer": "Front-end",
+    "category": "Functional",
+    "environment": "Staging, Chrome 120, Windows 11",
+    "role": "Customer",
+    "storyId": 1234,
+    "testCaseId": 2210,
+    "preconditions": "Customer is logged in, and the balance is 20,000 EGP",
+    "testData": "amount = 10,001",
+    "steps": [
+      "Open the Transfer screen",
+      "Enter 10,001 in the Amount field",
+      "Click Transfer"
+    ],
+    "expected": "EN: \"Amount exceeds the maximum limit\"\nAR: \"المبلغ أكبر من الحد الأقصى المسموح\"\nNo transfer is made.",
+    "actual": "No message appears. The transfer is completed, and the balance becomes 9,999 EGP.",
+    "attachments": [
+      "C:\\path\\to\\transfer-video.mp4",
+      "C:\\path\\to\\balance-screenshot.png"
+    ]
+  }
+]
