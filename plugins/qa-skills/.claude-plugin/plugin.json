@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "qa-skills",
+  "displayName": "QA Skills",
+  "version": "0.1.0",
+  "description": "Three QA skills for the story-to-bug workflow on Azure DevOps: analyze a User Story for gaps, impact and conflicts; design test cases and create them in Azure Test Plans; and write reproducible bug reports with a test execution summary.",
+  "author": {
+    "name": "Salma Shaban Aly"
+  },
+  "keywords": [
+    "qa",
+    "testing",
+    "requirement-analysis",
+    "test-design",
+    "test-cases",
+    "bug-report",
+    "azure-devops",
+    "azure-test-plans"
+  ]
+}
